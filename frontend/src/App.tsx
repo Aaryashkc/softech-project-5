@@ -3,7 +3,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-
+import PoliticalCareer from './pages/PoliticalCareer';
+import Achievements from './pages/Achievement';
+import Vision from './pages/Vision';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -13,10 +16,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            {/* <Route path="/political-career" element={<PoliticalCareer />} />
+            <Route path="/political-career" element={<PoliticalCareer />} />
             <Route path="/achievements" element={<Achievements />} />
             <Route path="/vision" element={<Vision />} />
-            <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

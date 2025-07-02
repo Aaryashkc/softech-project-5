@@ -8,14 +8,15 @@ const About = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            About Bishwa Prakash Sharma
+            <span className="text-green-700">About </span>
+            Bishwa Prakash Sharma
           </h1>
-          <div className="w-120 h-80 rounded-2xl shadow-2xl relative overflow-hidden m-10 justify-center mx-auto">
-                <img
-                  src={HomeImage}
-                  alt="Bishwa Prakash Sharma"
-                  className="w-full h-full object-cover"
-                />
+          <div className="w-full max-w-xs sm:max-w-md h-60 sm:h-80 rounded-2xl shadow-2xl relative overflow-hidden my-6 sm:my-10 mx-auto flex justify-center">
+            <img
+              src={HomeImage}
+              alt="Bishwa Prakash Sharma"
+              className="w-full h-full object-cover"
+            />
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             A dedicated leader committed to democratic principles, economic development, and the advancement of Nepal through principled governance.
